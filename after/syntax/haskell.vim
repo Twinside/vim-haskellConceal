@@ -105,6 +105,8 @@ if s:extraConceal
     syntax match hsNiceOperator "||\ze[[:alpha:][:space:]_([]" conceal cchar=∨
     syntax match hsNiceOperator "&&\ze[[:alpha:][:space:]_([]" conceal cchar=∧
     syntax match hsNiceOperator "\<not\>" conceal cchar=¬
+    
+    syntax match hsNiceOperator "!!" conceal cchar=‼
 endif
 
 hi link hsNiceOperator Operator
