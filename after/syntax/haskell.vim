@@ -107,6 +107,8 @@ if s:extraConceal
     syntax match hsNiceOperator "\<not\>" conceal cchar=¬
     
     syntax match hsNiceOperator "!!" conceal cchar=‼
+
+    syntax match hsNiceOperator "-o" conceal cchar=⊸
 endif
 
 hi link hsNiceOperator Operator
